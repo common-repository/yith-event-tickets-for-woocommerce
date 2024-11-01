@@ -1,0 +1,82 @@
+.date_panel>span {
+    display: inline-block;
+    width: 100%;
+    font-size: 0.9em;
+}
+.fields_panel{
+    margin-top: 0.5em;
+    float: left;
+    width: 100%;
+}
+.fields_rows {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 1em;
+}
+.header_service_row{
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+}
+.header_service_row>.remove{
+    float: right;
+}
+.header_service_row .remove:first-child{
+    display: none;
+}
+.header_service_row>h3{
+    display: inline;
+    padding: 0;
+}
+span.yith_wcevti_item_message {
+    width: 100%;
+}
+.field_service_row{
+    padding: 0.5em;
+    border: 1px solid #ddd;
+    margin-bottom: 0.5em;
+}
+.field_row>p>input{
+    width: 13em !important;
+}
+.service_item, .check_item {
+    display: inline-block;
+    width: 100%;
+}
+.field_row>.check_item>label{
+    display: initial;
+}
+.form-field>.field_item_radio_input{
+    width: 2em !important;
+}
+.service_item>.checkbox, .field_item>.checkbox{
+    float: left;
+    width: 1em !important;
+    margin-top: 0.4em !important;
+
+}
+.yith_wcevti_item_message_good, .yith_wcevti_item_message_complete{
+    color: #77a464;
+}
+.yith_wcevti_item_message_empty, .yith_wcevti_item_message_incomplete{
+    color: #ff4a4a;
+}
+.yith_wcevti_item_panel_complete{
+    border: solid #77a464;
+}
+.yith_wcevti_item_panel_incomplete{
+    border: solid #ff4a4a;
+}
+.yith_wcevti_item_panel_unstyle{
+    border: 1px solid #ddd;
+
+}
+._tickets_purchased, ._view_and_pdf_row {
+    display: inline-block;
+}
+._services_customer_select_field>label, .field_row>p>label{
+    display: inline-block;
+    width: 100%;
+}
+.yith_evti_total_price{
+    position: static;
+}

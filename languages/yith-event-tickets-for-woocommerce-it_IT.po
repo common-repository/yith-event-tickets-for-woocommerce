@@ -1,0 +1,1280 @@
+# mte90 <mte90net@gmail.com>, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH WooCommerce Tickets\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/init\n"
+"POT-Creation-Date: 2018-10-25 13:00:44+00:00\n"
+"PO-Revision-Date: 2018-10-16 16:45+0200\n"
+"Last-Translator: Mte90 <mte90net@gmail.com>\n"
+"Language-Team: Italian <kde-i18n-it@kde.org>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,"
+"_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: plugin-fw\n"
+
+#: includes/class.yith-event-tickets-admin.php:148
+msgctxt "shortened plugin name"
+msgid "Event Tickets"
+msgstr "Event Tickets"
+
+#: includes/class.yith-event-tickets-admin.php:150
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: includes/class.yith-event-tickets-admin.php:153
+msgid "Premium Version"
+msgstr "Versione premium"
+
+#: includes/class.yith-event-tickets-admin.php:216
+msgid "Plugin documentation"
+msgstr "Documentazione plugin"
+
+#: includes/class.yith-event-tickets-admin.php:220
+msgid "Help Center"
+msgstr "Centro assistenza"
+
+#: includes/class.yith-event-tickets-admin.php:437
+msgid "Remove this Service?"
+msgstr "Rimuovere questo servizio?"
+
+#: includes/class.yith-event-tickets-admin.php:518
+msgid "Fields"
+msgstr "Campi"
+
+#: includes/class.yith-event-tickets-admin.php:526
+msgid "Email template"
+msgstr "Template Email"
+
+#: includes/class.yith-event-tickets-admin.php:547
+#: templates/admin/edit_template_default.php:36
+msgid "Ticket"
+msgstr "Biglietto"
+
+#: includes/class.yith-event-tickets-admin.php:548
+#: templates/admin/edit_template_default.php:38
+msgid "Order"
+msgstr "Ordine"
+
+#: includes/class.yith-event-tickets-admin.php:549
+msgid "Purchase status"
+msgstr "Stato di acquisto"
+
+#: includes/class.yith-event-tickets-admin.php:550
+msgid "Start/End event"
+msgstr "Inizio/Fine evento"
+
+#: includes/class.yith-event-tickets-admin.php:584
+msgid "by"
+msgstr "di"
+
+#: includes/class.yith-event-tickets-admin.php:591
+msgid "Unregistered user"
+msgstr "Utente non registrato"
+
+#: includes/class.yith-event-tickets-admin.php:597
+msgid "The order linked to this event has been deleted..."
+msgstr "L'ordine relativo a questo ordine è stato rimosso..."
+
+#: includes/class.yith-event-tickets-admin.php:607
+msgid "Purchased on "
+msgstr "Acquistato in data "
+
+#: includes/class.yith-event-tickets-admin.php:625
+msgid "No start or end date has been defined for this event"
+msgstr "Nessuna data di inizio o fine evento per questo evento"
+
+#: includes/class.yith-event-tickets-admin.php:627
+#: includes/functions.yith-wcevti.php:414
+msgid "to"
+msgstr "a"
+
+#: includes/class.yith-event-tickets-admin.php:647
+#: templates/frontend/view_pdf_and_gcalendar_button.php:7
+msgid "View"
+msgstr "Visualizza"
+
+#: includes/class.yith-event-tickets-admin.php:771
+msgid "Event #%d %s details"
+msgstr "Dettagli evento #%d %s"
+
+#: includes/class.yith-event-tickets-admin.php:775
+msgid "Ticket template"
+msgstr "Template biglietti"
+
+#: includes/class.yith-event-tickets-frontend.php:137
+#: templates/admin/date_fields.php:5
+msgid "Start date"
+msgstr "Data inizio"
+
+#: includes/class.yith-event-tickets-frontend.php:138
+#: templates/admin/date_fields.php:17
+msgid "End date"
+msgstr "Data fine evento"
+
+#: includes/class.yith-event-tickets-frontend.php:141
+#: includes/class.yith-event-tickets-frontend.php:145
+msgid "Complete"
+msgstr "Completo"
+
+#: includes/class.yith-event-tickets-frontend.php:143
+msgid "Need to fill one or more of the above fields"
+msgstr "È necessario compilare uno o più tra i campi seguenti"
+
+#: includes/class.yith-event-tickets-frontend.php:147
+msgid "Incomplete"
+msgstr "Incompleto"
+
+#: includes/class.yith-event-tickets-frontend.php:149
+msgid "Incorrect email format"
+msgstr "Formato email non corretto"
+
+#: includes/class.yith-event-tickets-frontend.php:151
+msgid "Incorrect number format"
+msgstr "Formato numero non corretto"
+
+#: includes/class.yith-event-tickets-frontend.php:153
+msgid "Incorrect date format"
+msgstr "Formato data non corretto"
+
+#: includes/class.yith-event-tickets-frontend.php:155
+msgid "Are you sure you want to delete"
+msgstr "Sei sicuro di voler rimuovere"
+
+#: includes/class.yith-event-tickets-frontend.php:157
+msgid "tickets"
+msgstr "biglietti"
+
+#: includes/class.yith-event-tickets-frontend.php:159
+msgid "ticket"
+msgstr "biglietto"
+
+#: includes/class.yith-event-tickets-frontend.php:228
+msgid "Expired Event"
+msgstr "Evento scaduto"
+
+#: includes/class.yith-event-tickets-frontend.php:436
+#: includes/class.yith-event-tickets-frontend.php:443
+msgid "Yes"
+msgstr "Sì"
+
+#: includes/class.yith-event-tickets-frontend.php:436
+#: includes/class.yith-event-tickets-frontend.php:443
+msgid "No"
+msgstr "No"
+
+#: includes/class.yith-event-tickets-frontend.php:574
+msgid "The required text field \"%s\" is empty."
+msgstr "Il campo testo \"%s\" è vuoto (campo obbligatorio)."
+
+#: includes/class.yith-event-tickets-frontend.php:581
+msgid "The required textarea field \"%s\" is empty."
+msgstr "L'area di testo \"%s\" è vuota (campo obbligatorio)."
+
+#: includes/class.yith-event-tickets-frontend.php:588
+msgid "The required email field \"%s\" is empty."
+msgstr "Il campo email \"%s\" è vuoto (campo obbligatorio)."
+
+#: includes/class.yith-event-tickets-frontend.php:594
+msgid "The format of the email address entered for \"%s\" is not correct."
+msgstr "Il formato dell'indirizzo email inserito per \"%s\" non è corretto."
+
+#: includes/class.yith-event-tickets-frontend.php:602
+msgid "The required field \"%s\" is empty."
+msgstr "Il campo \"%s\" è vuoto (campo obbligatorio)."
+
+#: includes/class.yith-event-tickets-frontend.php:606
+msgid "The required field \"%s\" must be a number."
+msgstr "Il valore richiesto \"%s\" deve essere un numero."
+
+#: includes/class.yith-event-tickets-frontend.php:613
+msgid "The required date \"%s\" is empty."
+msgstr "Il campo data \"%s\" è vuoto (campo obbligatorio)."
+
+#: includes/class.yith-event-tickets-frontend.php:620
+msgid "The date format entered for \"%s\" is not correct."
+msgstr "Il formato data inserito per \"%s\" non è corretto."
+
+#: includes/class.yith-event-tickets-frontend.php:628
+msgid "You must choose an option, \"%s\" field."
+msgstr "Scegli un'opzione, per favore, campo \"%s\"."
+
+#: includes/class.yith-event-tickets-privacy.php:25
+msgctxt "Privacy Policy Content"
+msgid "YITH Event Tickets for WooCommerce"
+msgstr "YITH Event Tickets for WooCommerce"
+
+#: includes/class.yith-event-tickets-privacy.php:45
+msgid "When you purchase a ticket, we’ll track:"
+msgstr "Quando acquisti un biglietto, seguiremo:"
+
+#: includes/class.yith-event-tickets-privacy.php:47
+msgid ""
+"Personal data of the owner: these data will be used by the event organizer "
+"to create a list of attendees."
+msgstr ""
+"Dati personali del proprietario: questi dati verranno utilizzati "
+"dall'organizzatore dell'evento per creare un elenco di partecipanti."
+
+#: includes/class.yith-event-tickets-privacy.php:48
+msgid ""
+"Service purchased: we’ll keep the selected service options set for you "
+"ticket, in order to help the staff organize the event."
+msgstr ""
+"Servizio acquistato: terremo le opzioni di servizio selezionate impostate "
+"per il biglietto, al fine di aiutare lo staff a organizzare l'evento."
+
+#: includes/class.yith-event-tickets-privacy.php:50
+msgid ""
+"We’ll also use cookies to store preferences you set for your ticket and "
+"prevent you from entering them more than once during the same session."
+msgstr ""
+"Useremo anche i cookies per memorizzare le preferenze impostate per il "
+"biglietto e impedirvi di entrarvi più di una volta durante la stessa "
+"sessione."
+
+#: includes/class.yith-event-tickets-privacy.php:53
+msgid ""
+"Members of our team have access to the information you provide us. For "
+"example, both Administrators and Shop Managers can access:"
+msgstr ""
+"I membri del nostro team hanno accesso alle informazioni che ci fornisci. Ad "
+"esempio, sia amministratori che shop manager possono accedere:"
+
+#: includes/class.yith-event-tickets-privacy.php:55
+msgid "Ticket information, such as liked personal data or services"
+msgstr "Informazioni sui biglietti, come i dati personali o i servizi"
+
+#: includes/class.yith-event-tickets-privacy.php:57
+msgid ""
+"Our team members have access to this information to manage the event and "
+"prepare the list of attendees."
+msgstr ""
+"I nostri membri del team hanno accesso a queste informazioni per gestire "
+"l'evento e preparare l'elenco dei partecipanti."
+
+#: includes/class.yith-event-tickets-privacy.php:79
+#: includes/class.yith-event-tickets-privacy.php:98
+msgid "Tickets Data"
+msgstr "Dati biglietti"
+
+#: includes/class.yith-event-tickets-privacy.php:124
+msgid "Event Tickets"
+msgstr "Event Tickets"
+
+#. Translators: %s Order number.
+#: includes/class.yith-event-tickets-privacy.php:188
+msgid "Anonymized ticket %s."
+msgstr "Biglietti anonimi %s."
+
+#. Translators: %s Order number.
+#: includes/class.yith-event-tickets-privacy.php:192
+msgid "Ticket %s has been retained."
+msgstr "Il biglietto %s è stato salvato."
+
+#: includes/class.yith-event-tickets-privacy.php:266
+msgid "Ticket number"
+msgstr "Numero biglietto"
+
+#: includes/class.yith-event-tickets-privacy.php:267
+msgid "Purchase date"
+msgstr "Data acquisto"
+
+#: includes/class.yith-event-tickets-privacy.php:268
+msgid "Event"
+msgstr "Evento"
+
+#: includes/class.yith-event-tickets-privacy.php:269
+#: templates/tickets/default-html-before-date.php:6
+#: templates/tickets/default-html-preview-before-date.php:6
+msgid "Location"
+msgstr "Posizione"
+
+#: includes/class.yith-event-tickets-privacy.php:270
+#: templates/admin/fields_row.php:28
+msgid "Date"
+msgstr "Data"
+
+#: includes/class.yith-event-tickets-privacy.php:271
+msgid "Customer details"
+msgstr "Dettagli cliente"
+
+#: includes/class.yith-event-tickets-privacy.php:272
+msgid "Ticket details"
+msgstr "Dettagli biglietto"
+
+#: includes/class.yith-event-tickets-privacy.php:273
+#: templates/tickets/default-html-preview.php:86
+#: templates/tickets/default-html.php:58
+msgid "Price"
+msgstr "Prezzo"
+
+#: includes/class.yith-event-tickets-privacy.php:284
+msgid "N/D"
+msgstr "N/D"
+
+#: includes/class.yith-event-tickets.php:192
+msgctxt "product type in Edit product page"
+msgid "Event Ticket"
+msgstr "Evento"
+
+#: includes/class.yith-event-tickets.php:225
+msgctxt "Handle purchased tickets on your shop"
+msgid "Purchased tickets"
+msgstr "Biglietti acquistati"
+
+#: includes/class.yith-event-tickets.php:227
+msgctxt "Purchased tickets"
+msgid "Purchased tickets"
+msgstr "Biglietti acquistati"
+
+#: includes/class.yith-event-tickets.php:229
+msgctxt "Purchased tickets"
+msgid "Tickets"
+msgstr "BIglietti"
+
+#: includes/class.yith-event-tickets.php:231
+msgid "Edit Ticket"
+msgstr "Modifica biglietto"
+
+#: includes/class.yith-event-tickets.php:233
+msgid "Search tickets"
+msgstr "Cerca un biglietto"
+
+#: includes/functions.yith-wcevti.php:147
+msgid "Free"
+msgstr "Gratuito"
+
+#: includes/functions.yith-wcevti.php:409
+msgid "Start"
+msgstr "Inizio"
+
+#: includes/functions.yith-wcevti.php:410
+msgid "at"
+msgstr "a"
+
+#: includes/functions.yith-wcevti.php:411
+msgid "Finish"
+msgstr "Fine"
+
+#: includes/functions.yith-wcevti.php:413
+msgid "From"
+msgstr "Da"
+
+#: plugin-options/settings-options.php:21
+msgctxt "Panel: page title"
+msgid "General settings"
+msgstr "Impostazioni Generali"
+
+#: plugin-options/settings-options.php:28
+#, fuzzy
+msgctxt ""
+"Admin option to choose whether to remove events with past dates from sale or "
+"not"
+msgid "Disable sale if expired:"
+msgstr "Disattiva la vendita se scaduto:"
+
+#: plugin-options/settings-options.php:30
+msgctxt "Admin option description"
+msgid ""
+"Choose whether you want to remove events with past dates from sale or not"
+msgstr ""
+"Scegli se vuoi rimuovere o meno dalla vendita gli eventi con le date passate "
+
+#: plugin-options/settings-options.php:35
+msgctxt "Admin option that defines the text used by expired dates"
+msgid "Text for expired events:"
+msgstr "Testo per gli eventi scaduti:"
+
+#: plugin-options/settings-options.php:42
+msgctxt "Admin option to choose whether to hide events with past dates"
+msgid "Hide if expired:"
+msgstr "Nascondi se scaduto:"
+
+#: plugin-options/settings-options.php:45
+msgctxt "Admin option description"
+msgid "Choose whether you want to hide events with past dates"
+msgstr "Scegli se vuoi nascondere gli eventi con le date passate "
+
+#: templates/admin/customs_options.php:4
+msgid "Disable cookies form"
+msgstr "Disabilita modulo cookie"
+
+#: templates/admin/customs_options.php:7
+msgid ""
+"If you enable this option and refresh the ticket form, the fields will be "
+"emptied."
+msgstr ""
+"Se abiliti quest'opzione e aggiorni il form del biglietto, i campi saranno "
+"svuotati."
+
+#: templates/admin/date_fields.php:10
+msgid "Start time"
+msgstr "Ora inizio"
+
+#: templates/admin/date_fields.php:23
+msgid "End time"
+msgstr "Ora fine"
+
+#: templates/admin/edit_template_default.php:4
+msgid "Header image"
+msgstr "Immagine testata"
+
+#: templates/admin/edit_template_default.php:5
+#: templates/admin/edit_template_default.php:53
+#: templates/admin/edit_template_default.php:61
+msgid "Choose..."
+msgstr "Scegli..."
+
+#: templates/admin/edit_template_default.php:9
+#: templates/admin/edit_template_default.php:57
+#: templates/admin/edit_template_default.php:65
+msgid "Clear"
+msgstr "Svuota"
+
+#: templates/admin/edit_template_default.php:12
+msgid "Display ticket number"
+msgstr "Mostra numero biglietto"
+
+#: templates/admin/edit_template_default.php:19
+msgid "Display ticket number just before title ticket"
+msgstr "Mostra il numero del biglietto prima del titolo"
+
+#: templates/admin/edit_template_default.php:23
+msgid "Display barcode"
+msgstr "Mostra codice a barre"
+
+#: templates/admin/edit_template_default.php:32
+msgid "Type of barcode"
+msgstr "Tipo di codice a barre"
+
+#: templates/admin/edit_template_default.php:37
+msgid "Product"
+msgstr "Prodotto"
+
+#: templates/admin/edit_template_default.php:40
+msgid ""
+"Tickets purchased will generate a barcode number if this option is enabled"
+msgstr ""
+"I biglietti acquistati genereranno un codice a barre se abiliti quest'opzione"
+
+#: templates/admin/edit_template_default.php:46
+msgid ""
+"If you want to display barcodes on your Event Tickets, please, install YITH "
+"WooCommerce Barcodes and Qr Codes plugin"
+msgstr ""
+"Se vuoi mostrare il codice a barre sui biglietti dei tuoi eventi, installa "
+"il plugin YITH WooCommerce Barcordes e QR Codes"
+
+#: templates/admin/edit_template_default.php:52
+msgid "Background image"
+msgstr "Immagine di sfondo"
+
+#: templates/admin/edit_template_default.php:60
+msgid "Footer logo"
+msgstr "Logo a piè di pagina"
+
+#: templates/admin/edit_template_default.php:68
+msgid "Additional text"
+msgstr "Testo aggiuntivo"
+
+#: templates/admin/fields_row.php:11
+msgid "Placeholder for type number only works with numeric values."
+msgstr ""
+"Il segnaposto di tipo \"numero\" funziona soltanto con valori numerici."
+
+#: templates/admin/fields_row.php:24
+msgid "Text"
+msgstr "Testo"
+
+#: templates/admin/fields_row.php:25
+msgid "Textarea"
+msgstr "Area di testo"
+
+#: templates/admin/fields_row.php:26
+msgid "Email"
+msgstr "Email"
+
+#: templates/admin/fields_row.php:27
+msgid "Number"
+msgstr "Numero"
+
+#: templates/admin/fields_row.php:29
+msgid "Yes/No"
+msgstr "Sì/No"
+
+#: templates/admin/fields_row.php:43
+msgid "Remove"
+msgstr "Rimuovi"
+
+#: templates/admin/premium.php:292 templates/admin/premium.php:520
+msgid ""
+"Upgrade to %1$spremium version%2$s of %1$sYITH Event Tickets for WooCommerce"
+"%2$s to benefit from all features!"
+msgstr ""
+
+#: templates/admin/premium.php:295 templates/admin/premium.php:523
+msgid "UPGRADE"
+msgstr ""
+
+#: templates/admin/premium.php:296 templates/admin/premium.php:524
+#, fuzzy
+msgid "to the premium version"
+msgstr "Versione premium"
+
+#: templates/admin/premium.php:302
+#, fuzzy
+msgid "Premium Features"
+msgstr "Versione premium"
+
+#: templates/admin/premium.php:310
+#, fuzzy
+msgid "Sell reduced-price tickets"
+msgstr "Dettagli sul prezzo ridotto"
+
+#: templates/admin/premium.php:313
+msgid ""
+"Offer your users the possibility to %1$spurchase a ticket at a lower price:"
+"%2$s set the discount to apply to the price and insert the notes to inform "
+"about the requirements to benefit from a reduced-price ticket. "
+msgstr ""
+
+#: templates/admin/premium.php:323
+#, fuzzy
+msgid "Increase the price basing on the availability"
+msgstr "Incrementa il prezzo in base alla quantità in magazzino"
+
+#: templates/admin/premium.php:326
+msgid ""
+"The strategy to increase the ticket price when the availability is "
+"decreasing is very used! In a few steps, %1$syou can configure an automatic "
+"increase%2$s, fixed or percentage, on the ticket price basing on the "
+"remaining quantity. %3$sChoose the quantity range to apply this action. "
+msgstr ""
+
+#: templates/admin/premium.php:342
+msgid "Increase the price when the event is approaching"
+msgstr ""
+
+#: templates/admin/premium.php:345
+msgid ""
+"Is the event date getting closer? Add more value to the %1$sremaining tickets"
+"%2$s applying a surcharge on the price. "
+msgstr ""
+
+#: templates/admin/premium.php:348
+msgid ""
+"After choosing how to edit the price, the system daily checks the days that "
+"are left to the event and sets the new price."
+msgstr ""
+
+#: templates/admin/premium.php:358
+#, fuzzy
+msgid "Add services to the ticket"
+msgstr "Aggiungi servizi a questo biglietto"
+
+#: templates/admin/premium.php:361
+msgid ""
+"Offer optional services linked to the ticket sale, such as parking, lunch or "
+"dinner included, etc. Depending on the settings, %1$sthe service can have a "
+"limited availability and entail an increase in the final ticket price.%2$s "
+msgstr ""
+
+#: templates/admin/premium.php:377
+#, fuzzy
+msgid "Show the location of the event"
+msgstr "Luogo dell'evento"
+
+#: templates/admin/premium.php:380
+msgid ""
+"Insert the address and...that's it! Thanks to the %1$sintegration with "
+"Google Maps%2$s, you can show the event map in a certain tab of the product "
+"page. A significant information for those users who are interested in the "
+"event. "
+msgstr ""
+
+#: templates/admin/premium.php:390
+#, fuzzy
+msgid "Organizers and attendees "
+msgstr "Organizzatori e assistenti"
+
+#: templates/admin/premium.php:393
+msgid ""
+"The tab %1$s\"Assistants\"%2$s of the product page allows having the "
+"complete list of organizers and users who purchased at least a ticket for "
+"the selected event in a unique section."
+msgstr ""
+
+#: templates/admin/premium.php:409
+#, fuzzy
+msgid "Events calendar "
+msgstr "Event Tickets - Calendario"
+
+#: templates/admin/premium.php:412
+msgid ""
+"Thanks to a useful widget, you can %1$sinsert a calendar to your site "
+"sidebars%2$s that will help your users to spot the scheduled events in a "
+"very easy way. "
+msgstr ""
+
+#: templates/admin/premium.php:422
+msgid "Download file"
+msgstr ""
+
+#: templates/admin/premium.php:425
+msgid ""
+"Now you can %1$senable the downloading%2$s of one or more files for each "
+"event type product available on your shop."
+msgstr ""
+
+#: templates/admin/premium.php:428
+msgid ""
+"Choose the files to associate with each product. After completing the "
+"purchase, %1$susers can download the files from My Account page%2$s."
+msgstr ""
+
+#: templates/admin/premium.php:444
+msgid "Export CSV"
+msgstr "Esporta in CSV"
+
+#: templates/admin/premium.php:447
+msgid ""
+"By %1$sexporting the tickets to CSV%2$s, you can process all the information "
+"related to each ticket depending on your needs."
+msgstr ""
+
+#: templates/admin/premium.php:450
+msgid "As an alternative, you can view these data in your browser. "
+msgstr ""
+
+#: templates/admin/premium.php:460
+msgid "Shortcode with search form"
+msgstr ""
+
+#: templates/admin/premium.php:463
+msgid ""
+"Thanks to the specific shortcode, you can insert a %1$sticket search form"
+"%2$s in one of your site pages."
+msgstr ""
+
+#: templates/admin/premium.php:466
+msgid ""
+"The form (visible to site administrators only) allows %1$ssearching for the "
+"ticket%2$s by ticket number o barcode (if generated with YITH WooCommerce "
+"Barcodes)."
+msgstr ""
+
+#: templates/admin/premium.php:482
+#, fuzzy
+msgid "Check-in"
+msgstr "Verifica per"
+
+#: templates/admin/premium.php:485
+msgid "Do you need a check-in action for the tickets you have created?"
+msgstr ""
+
+#: templates/admin/premium.php:488
+msgid ""
+"From now on, you can flag your tickets with the %1$s\"checked\"%2$s status: "
+"you can do it from the backend of your site or automatically after searching "
+"for the ticket through the related search form. "
+msgstr ""
+
+#: templates/admin/premium.php:498
+msgid "Integration with Barcodes"
+msgstr ""
+
+#: templates/admin/premium.php:501
+msgid ""
+"Take advantage of the plugin used in combination with YITH WooCommerce "
+"Barcodes and QR Codes"
+msgstr ""
+
+#: templates/admin/premium.php:504
+msgid ""
+"By associating a barcode with your orders and each ticket sold, you can "
+"speed your next searches"
+msgstr ""
+
+#: templates/admin/premium.php:507
+msgid ""
+"%1$sScan the ticket barcode%2$s to get the ticket details or %1$sscan the "
+"order barcode%2$s to get the complete list of the tickets linked to that "
+"order"
+msgstr ""
+
+#: templates/admin/product_data_content.php:8
+msgid "Add custom fields on the tickets for this event"
+msgstr "Aggiungi campi personalizzati per questo evento"
+
+#: templates/admin/product_data_content.php:17
+msgid "Name"
+msgstr "Nome"
+
+#: templates/admin/product_data_content.php:18
+msgid "Placeholder"
+msgstr "Segnaposto"
+
+#: templates/admin/product_data_content.php:18
+msgid "The name will be appear like input placeholder"
+msgstr "Il nome apparirà come segnaposto al momento dell'inserimento"
+
+#: templates/admin/product_data_content.php:19
+msgid "Type"
+msgstr "Tipo"
+
+#: templates/admin/product_data_content.php:20
+msgid "Required"
+msgstr "Obbligatorio"
+
+#: templates/admin/product_data_content.php:21
+msgid "Actions"
+msgstr "Azioni"
+
+#: templates/admin/product_data_content.php:47
+msgid "Add option"
+msgstr "Aggiungi opzione"
+
+#: templates/admin/product_data_content.php:70
+msgid "Email template for your event"
+msgstr "Template Email per il tuo evento"
+
+#: templates/admin/product_data_content.php:74
+msgid "Type of template"
+msgstr "Tipo di template"
+
+#: templates/admin/product_data_content.php:78
+msgid "Default"
+msgstr "Predefinito"
+
+#: templates/admin/ticket_order_meta_box.php:5
+msgid "Purchased date"
+msgstr "Data acquisto"
+
+#: templates/admin/ticket_order_meta_box.php:10
+msgid "Field details"
+msgstr "Dettagli campi"
+
+#: templates/frontend/fields_services_row.php:8
+msgid "Remove this ticket"
+msgstr "Rimuovi questo biglietto"
+
+#: templates/frontend/view_pdf_and_gcalendar_button.php:22
+msgid "PDF"
+msgstr "PDF"
+
+#: templates/frontend/view_pdf_and_gcalendar_button.php:26
+msgid "Export to Google Calendar"
+msgstr "Esporta su Google Calendar"
+
+#. Plugin Name of the plugin/theme
+#, fuzzy
+msgid "YITH Event Tickets for WooCommerce"
+msgstr "YITH Event Tickets for WooCommerce"
+
+#. Plugin URI of the plugin/theme
+msgid "https://yithemes.com/themes/plugins/yith-woocommerce-event-tickets"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"<code><strong>YITH Event Tickets for WooCommerce</strong></code> allows you "
+"to manage, sell and assign tickets easily and intuitively. Insert your "
+"product, specify the fields to be completed, the available services and let "
+"the plugin handle the rest from the sale, ticket creation as PDF to the "
+"check-in during the event. <a href=\"https://yithemes.com/\" target=\"_blank"
+"\">Get more plugins for your e-commerce on <strong>YITH</strong></a>"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "YITH"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "httpS://yithemes.com/"
+msgstr ""
+
+#~ msgid "Checked"
+#~ msgstr "Selezionato"
+
+#~ msgid "Map"
+#~ msgstr "Mappa"
+
+#~ msgid "Services"
+#~ msgstr "Servizi"
+
+#~ msgid "Export ticket"
+#~ msgstr "Esporta ticket"
+
+#~ msgid ""
+#~ "You are tried change order status that have an item with service purchased"
+#~ msgstr ""
+#~ "Stai cercando di cambiare lo stato dell'ordine che ha un articolo con il "
+#~ "servizio acquistato"
+
+#~ msgid "Place"
+#~ msgstr "Luogo"
+
+#~ msgid "Make check in"
+#~ msgstr "Effettua il check-in"
+
+#~ msgid "No location has been defined for this event"
+#~ msgstr "Nessuna posizione configurata per questo evento"
+
+#~ msgid "Export to CSV"
+#~ msgstr "Esporta in CSV"
+
+#~ msgid "CSV"
+#~ msgstr "CSV"
+
+#~ msgid "Make Check in"
+#~ msgstr "Effettua il check-in"
+
+#~ msgid "Mark Pending check"
+#~ msgstr "Segna come in attesa di verifica"
+
+#~ msgid "Mark Cancelled"
+#~ msgstr "Segna come annullato"
+
+#~ msgid "Ticket #%d found"
+#~ msgstr "Ticket #%d trovato"
+
+#~ msgid "Order #%d found"
+#~ msgstr "Order #%d trovato"
+
+#~ msgid "No tickets were found"
+#~ msgstr "Non sono stati trovati biglietti"
+
+#~ msgid "Ticket #%d does not belong to this event"
+#~ msgstr "Il biglietto #%d non appartiene a questo evento"
+
+#~ msgid "Tickets purchased for \"%s\" event"
+#~ msgstr "Biglietti acquistati per l'evento \"%s\""
+
+#~ msgid "Need to fill one or more of the above fields or services!"
+#~ msgstr "È necessario compilare uno o più campi sovrastanti o i servizi!"
+
+#~ msgid ""
+#~ "%s has been removed from your cart because it can no longer be purchased. "
+#~ "Please contact us if you need assistance."
+#~ msgstr ""
+#~ "%s è stato rimosso dal tuo carrello in quanto non può più essere "
+#~ "acquistato. Per favore contattaci se hai bisogno di assistenza. "
+
+#~ msgid "Assistants"
+#~ msgstr "Assistenti"
+
+#~ msgid "Select number: the selected value for %s service is out of range."
+#~ msgstr ""
+#~ "Seleziona il numero: il valore selezionato per il servizio %s è non è "
+#~ "compreso."
+
+#~ msgid ""
+#~ "Select number: the selected value for %s service has not been selected. "
+#~ "It's mandatory field."
+#~ msgstr ""
+#~ "Seleziona numero: non è stato selezionato alcun valore per il servizio "
+#~ "%s. Si tratta di un campo obbligatorio."
+
+#~ msgid "Select service required: it's not selected."
+#~ msgstr "Seleziona il servizio richiesto: non è stato selezionato."
+
+#~ msgid "Select service: the selected value does not exist."
+#~ msgstr "Seleziona servizio: il servizio selezionato non esiste."
+
+#~ msgid "You are trying to buy more services than the available. "
+#~ msgstr "Stai cercando di acquistare più servizi di quelli disponibili. "
+
+#~ msgid " it's out of range."
+#~ msgstr " non è previsto."
+
+#~ msgid " has been already selected."
+#~ msgstr " è stato già selezionato."
+
+#~ msgid " is already in your cart."
+#~ msgstr " è già presente nel carrello."
+
+#~ msgid " is out of stock"
+#~ msgstr " è esaurito"
+
+#~ msgid " has been bought by another user."
+#~ msgstr " è stato acquistato già da un altro utente."
+
+#~ msgid "Last units overcharge"
+#~ msgstr "Sovrapprezzo ultime unità"
+
+#~ msgid "Last days overcharge"
+#~ msgstr "Sovrapprezzo ultimi giorni"
+
+#~ msgid "Ok"
+#~ msgstr "Ok"
+
+#~ msgid "Reduced price activated"
+#~ msgstr "Prezzo ridotto attivato"
+
+#~ msgctxt "Ticket status"
+#~ msgid "Pending check"
+#~ msgstr "In attesa di verifica"
+
+#~ msgid "Pending check <span class=\"count\">(%s)</span>"
+#~ msgid_plural "Pending check <span class=\"count\">(%s)</span>"
+#~ msgstr[0] "In attesa di verifica <span class=\"count\">(%s)</span>"
+#~ msgstr[1] "In attesa di verifica <span class=\"count\">(%s)</span>"
+
+#~ msgctxt "Ticket status"
+#~ msgid "Checked"
+#~ msgstr "Verificato"
+
+#~ msgid "Checked <span class=\"count\">(%s)</span>"
+#~ msgid_plural "Checked <span class=\"count\">(%s)</span>"
+#~ msgstr[0] "Verificato <span class=\"count\">(%s)</span>"
+#~ msgstr[1] "Verificati <span class=\"count\">(%s)</span>"
+
+#~ msgctxt "Ticket status"
+#~ msgid "Cancelled"
+#~ msgstr "Annullato"
+
+#~ msgid "Cancelled <span class=\"count\">(%s)</span>"
+#~ msgid_plural "Cancelled <span class=\"count\">(%s)</span>"
+#~ msgstr[0] "Annullato <span class=\"count\">(%s)</span>"
+#~ msgstr[1] "Annullati <span class=\"count\">(%s)</span>"
+
+#~ msgid "Users who will take part in the event"
+#~ msgstr "Gli utenti che saranno all'evento"
+
+#~ msgid "Organizers"
+#~ msgstr "Organizzatori"
+
+#~ msgid "has been checked"
+#~ msgstr "è stato già verificato"
+
+#~ msgid "could not be checked"
+#~ msgstr "non si è potuto verificare"
+
+#~ msgid "Check-in message dialog"
+#~ msgstr "Scambio messaggi per il check-in"
+
+#~ msgid "in stock"
+#~ msgstr "disponibile"
+
+#~ msgid "(out of stock)"
+#~ msgstr "(non disponibile)"
+
+#~ msgid "(in stock)"
+#~ msgstr "(disponibile)"
+
+#~ msgid " Service selected have been already bought!"
+#~ msgstr " Il servizio selezionato è stato già acquistato!"
+
+#~ msgid " Service its out ranged!"
+#~ msgstr " Il servizio è oltre la selezione!"
+
+#~ msgid "Some of the selected services have been already bought!"
+#~ msgstr "Alcuni dei servizi selezionati sono già stati acquistati!"
+
+#~ msgid "You are trying to add more services than available!"
+#~ msgstr "Stai cercando di aggiungere più servizi di quelli disponibili!"
+
+#~ msgid "The service \"%s %s\" chosen on \"%s\" has been added to order %s"
+#~ msgstr ""
+#~ "Il servizio \"%s %s\" scelto su \"%s\" è stato aggiunto all'ordine %s"
+
+#~ msgid "The service \"%s\" chosen on \"%s\" has been added to order %s"
+#~ msgstr "Il servizio \"%s\" scelto su \"%s\" è stato aggiunto all'ordine %s"
+
+#, fuzzy
+#~| msgid ""
+#~| "YITH Event Tickets for WooCommerce is enabled but not effective. It "
+#~| "requires WooCommerce in order to work."
+#~ msgid ""
+#~ "%s is enabled but not effective. It requires WooCommerce in order to work."
+#~ msgstr ""
+#~ "YITH Event Tickets for WooCommerce è attivo ma non operativo. Il suo "
+#~ "funzionamento richiede WooCommerce."
+
+#~ msgctxt "Admin option: Enable location maps"
+#~ msgid "Enable Location site:"
+#~ msgstr "Abilita posizione:"
+
+#~ msgctxt "Admin option: Enable location maps"
+#~ msgid "Check this option to enable Google Maps event location"
+#~ msgstr ""
+#~ "Seleziona questa opzione per abilitare la posizione dell'evento con "
+#~ "Google Maps"
+
+#~ msgctxt "Admin option: Google Maps Api Key"
+#~ msgid "Google Maps API Key:"
+#~ msgstr "Chiave di Google Maps"
+
+#~ msgctxt ""
+#~ "Admin option:\n"
+#~ "                Google Maps Api Key"
+#~ msgid ""
+#~ "Your Api Key here, you need a Google Developer account to generate your "
+#~ "Api Key for Google Maps"
+#~ msgstr ""
+#~ "La tua chiave API, necessiti di un account Google Developer per generare "
+#~ "la tua chiave API per Google Maps"
+
+#~ msgctxt ""
+#~ "Admin options to define the time that has to pass before an expired event "
+#~ "is hidden"
+#~ msgid "Delay time for expired events (days)"
+#~ msgstr "Posticipo per gli eventi scaduti (giorni)"
+
+#~ msgctxt "yith-event-tickets-for-woocommerce"
+#~ msgid ""
+#~ "Define how much time has to pass before an expired event can be removed "
+#~ "from sale"
+#~ msgstr ""
+#~ "Definisci quanto tempo deve passare prima che un evento scaduto possa "
+#~ "essere rimosso dalla vendita"
+
+#~ msgid "Fixed"
+#~ msgstr "Fisso"
+
+#~ msgid "Percentage"
+#~ msgstr "Percentuale"
+
+#~ msgid "Description"
+#~ msgstr "Descrizione"
+
+#~ msgid "Do you want to \"Increase price by stock\" feature?"
+#~ msgstr "Vuoi la possibilità di aumentare il prezzo in base alla quantità?"
+
+#~ msgid "Please, enable stock managment, before"
+#~ msgstr "Abilita la gestione del magazzino"
+
+#~ msgid "Stock"
+#~ msgstr "In magazzino"
+
+#~ msgid "Increase"
+#~ msgstr "Aumenta"
+
+#~ msgid "Add price-increase rule"
+#~ msgstr "Aggiungi una regola per l'aumento del prezzo"
+
+#~ msgid "Increase price by time"
+#~ msgstr "Aumenta il prezzo in base all'orario"
+
+#~ msgid "Days before event"
+#~ msgstr "Giorni prima dell'evento"
+
+#~ msgid "Organizers and Assistants tab"
+#~ msgstr "Scheda Organizzatori e Assistenti"
+
+#~ msgid "Display Assistants tab"
+#~ msgstr "Mostra scheda Assistenti"
+
+#~ msgid "Display Assistants tab only for organizers"
+#~ msgstr "Mostra la scheda Assistenti solo agli organizzatori"
+
+#~ msgid "Show Organizers"
+#~ msgstr "Mostra organizzatori"
+
+#~ msgid "Display Organizers on the Assistants tab"
+#~ msgstr "Mostra Organizzatori nella scheda Assistenti"
+
+#~ msgid "Add organizer"
+#~ msgstr "Aggiungi organizzatore"
+
+#~ msgid "Find and add users that will contribute to the event organization"
+#~ msgstr ""
+#~ "Trova e aggiungi utenti che vogliono contribuire all'organizzazione degli "
+#~ "eventi"
+
+#~ msgid "Event direction"
+#~ msgstr "Direzione evento"
+
+#~ msgid "Event address here"
+#~ msgstr "Indirizzo evento"
+
+#~ msgid ""
+#~ "For physical events, enter your event address here. The location will be "
+#~ "displayed on Google Maps"
+#~ msgstr ""
+#~ "Per eventi reali, inserisci l'indirizzo qui. La posizione sarà mostrata "
+#~ "su Google Maps"
+
+#~ msgid "Display location tab"
+#~ msgstr "Mostra scheda posizione"
+
+#~ msgid "To display map you must add Google Maps API KEY V3"
+#~ msgstr ""
+#~ "Per mostrare la mappa devi aggiungere la chiave API V3 di Google Maps"
+
+#~ msgid "Add service"
+#~ msgstr "Aggiungi servizio"
+
+#~ msgid "Checkbox"
+#~ msgstr "Casella di spunta"
+
+#~ msgid "Select"
+#~ msgstr "Menu a tendina"
+
+#~ msgid "Continue"
+#~ msgstr "Continua"
+
+#~ msgid "Cancel"
+#~ msgstr "Annulla"
+
+#~ msgid "Export ticket options"
+#~ msgstr "Esporta le opzioni del ticket"
+
+#~ msgid "Disable fields"
+#~ msgstr "Disabilita campi"
+
+#~ msgid "Disable services"
+#~ msgstr "Disabilita servizi"
+
+#~ msgid ""
+#~ "Please remember to click on the \"Update\" button on the right side of "
+#~ "this page to make changes to the Fields and Services options apply."
+#~ msgstr ""
+#~ "Ricorda di fare clic sul pulsante \"Aggiorna\" nella parte destra di "
+#~ "questa pagina per rendere operative le modifiche alle opzioni Campi e "
+#~ "Servizi."
+
+#~ msgid "Print"
+#~ msgstr "Stampa"
+
+#~ msgid "Enable reduced-price"
+#~ msgstr "Abilita prezzo ridotto"
+
+#~ msgid "Select price reduction type"
+#~ msgstr "Seleziona il tipo di riduzione del prezzo"
+
+#~ msgid "Fixed amount"
+#~ msgstr "Importo fissa"
+
+#~ msgid "Percent amount"
+#~ msgstr "Importo percentuale"
+
+#~ msgid "Option Name"
+#~ msgstr "Nome opzione"
+
+#~ msgid "Service type"
+#~ msgstr "Tipo di servizio"
+
+#~ msgid "Service name"
+#~ msgstr "Nome del servizio"
+
+#~ msgid "Service name here"
+#~ msgstr "Nome servizio qui"
+
+#~ msgid "Service stock"
+#~ msgstr "Disponibilità servizio"
+
+#~ msgid "Service Surcharge"
+#~ msgstr "Sovrapprezzo servizio"
+
+#~ msgid "Service required"
+#~ msgstr "Servizio obbligatorio"
+
+#~ msgid "Hide Surcharge"
+#~ msgstr "Nascondi sovrapprezzo"
+
+#~ msgid "Surcharge"
+#~ msgstr "Sovrapprezzo"
+
+#~ msgid "Range - From"
+#~ msgstr "Da"
+
+#~ msgid "Range - To"
+#~ msgstr "A"
+
+#~ msgid "Show number of tickets already sold"
+#~ msgstr "Mostra il numero di biglietti già venduti"
+
+#~ msgid "Service details"
+#~ msgstr "Dettagli servizi"
+
+#~ msgctxt "define the title to checkin for all events"
+#~ msgid "all events"
+#~ msgstr "tutti gli eventi"
+
+#~ msgid "Enter the ticket number here"
+#~ msgstr "Inserisci il numero del biglietto qui"
+
+#~ msgid "Ticket info"
+#~ msgstr "Informazioni biglietto"
+
+#~ msgid "Automatic check in"
+#~ msgstr "Check-in automatico"
+
+#~ msgid "purchased by"
+#~ msgstr "acquistato da"
+
+#~ msgid "This ticket not have fields"
+#~ msgstr "Questo biglietto non include alcun campo"
+
+#~ msgid "This ticket not have services"
+#~ msgstr "Questo biglietto non include alcun servizio"
+
+#~ msgid "Barcode"
+#~ msgstr "Codice a barre"
+
+#~ msgid "surcharge"
+#~ msgstr "sovrapprezzo"
+
+#~ msgid "Choose an option"
+#~ msgstr "Scegli un'opzione"
+
+#~ msgid "Choose a number for"
+#~ msgstr "Scegli un numero per"
+
+#~ msgid "Choose a number"
+#~ msgstr "Scegli un numero"
+
+#~ msgid "(Sold)"
+#~ msgstr "(Venduti)"
+
+#~ msgid "Reduced priced"
+#~ msgstr "Prezzo ridotto"
+
+#~ msgid "discount"
+#~ msgstr "sconto"
+
+#~ msgid "Reduced price"
+#~ msgstr "Prezzo ridotto"
+
+#~ msgctxt "show tickets already sold"
+#~ msgid "tickets already sold"
+#~ msgstr "biglietti già venduti"
+
+#~ msgid "tickets purchased"
+#~ msgstr "biglietti acquistati"
+
+#~ msgid "Display events from Event Tickets..."
+#~ msgstr "Mostra eventi da Event Tickets..."
+
+#~ msgid "Title"
+#~ msgstr "Titolo"
+
+#~ msgid "Plugin Documentation"
+#~ msgstr "Documentazione Plugin"
+
+#~ msgctxt ""
+#~ "Admin option:\r\n"
+#~ "                Google Maps Api Key"
+#~ msgid ""
+#~ "Your Api Key here, you need a Google Developer account to generate your "
+#~ "Api Key for Google Maps"
+#~ msgstr ""
+#~ "Inserisci la tua chiave API qui, devi avere un conto Google Developer per "
+#~ "generare la tua chiave API per Google Maps"
+
+#~ msgid "Post date"
+#~ msgstr "Data pubblicazione"
+
+#~ msgid "This plugin update is required to enable field and service checks"
+#~ msgstr ""
+#~ "Questo aggiornamento del plugin è necessario per abilitare la verifica "
+#~ "campi e servizi"

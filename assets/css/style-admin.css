@@ -1,0 +1,382 @@
+/*** YITH EVENT TICKETS FOR WOOCOMMERCE***/
+
+/* Icons */
+li.mail_template_options.mail_template_tab.show_if_ticket-event>a:before {
+    font-family: Dashicons;
+    content: "\f465" !important;
+}
+li.organization_template_options.organization_template_tab.show_if_ticket-event>a:before {
+    font-family: Dashicons;
+    content: "\f307" !important;
+}
+li.map_options.map_tab.hide_if_grouped.show_if_ticket-event>a:before{
+    font-family: Dashicons;
+    content: "\f231" !important;
+}
+li.event_fields_options.event_fields_tab.show_if_ticket-event>a:before{
+    font-family: Dashicons;
+    content: "\f464" !important;
+}
+li.services_options.services_tab.show_if_ticket-event>a:before{
+    font-family: Dashicons;
+    content: "\f314" !important;
+}
+li.export_template_options.export_template_tab.show_if_ticket-event>a:before{
+    font-family: Dashicons;
+    content: "\f310" !important;
+}
+/***/
+/* General Tab */
+.woocommerce_options_panel .yith_wcevti_date_event{
+    border: none;
+}
+.yith_wcevti_date_event .date_panel{
+    padding-top: 10px;
+    border-bottom: 1px solid #eee;
+}
+.yith_wcevti_date_event>.date_panel>.date_item>.form-field{
+    display: table-cell;
+}
+.yith_wcevti_date_event>.date_panel>.date_item>.form-field>input{
+    width: 100%;
+}
+
+.yith_wcevti_increase_stock_data,
+.yith_wcevti_increase_time_data {
+    padding: 10px;
+}
+.yith_wcevti_increase_title{
+    cursor: pointer;
+}
+.yith_wcevti_increase_stock_section h2,
+.yith_wcevti_increase_time_section h2{
+    display: inline-block;
+}
+.yith_wcevti_increase_stock_section .toggle,
+.yith_wcevti_increase_time_section .toggle{
+    width: 40px;
+    float: right;
+    text-align: center;
+    padding: 7px 0;
+}
+.yith_wcevti_increase_stock_section.opened .toggle i:before,
+.yith_wcevti_increase_time_section.opened .toggle i:before{
+    content: "\f142 ";
+}
+.yith_wcevti_increase_stock_section.closed .toggle i:before,
+.yith_wcevti_increase_time_section.closed .toggle i:before{
+    content: "\f140";
+}
+.yith_wcevti_increase_stock_section.closed .yith_wcevti_increase_stock_data,
+.yith_wcevti_increase_time_section.closed .yith_wcevti_increase_time_data{
+    display: none;
+}
+.yith_wcevti_increase_stock_section.opened .yith_wcevti_increase_stock_data,
+.yith_wcevti_increase_time_section.opened .yith_wcevti_increase_time_data{
+    display: block;
+}
+.yith_wcevti_increase_stock_data table tbody tr,
+.yith_wcevti_increase_time_data table tbody tr{
+    background-color: #f5f5f5;
+}
+.yith_wcevti_increase_stock_data table tbody tr:nth-child( 2n ),
+.yith_wcevti_increase_time_data table tbody tr:nth-child( 2n ){
+    background-color: #ffffff;
+}
+.yith_wcevti_increase_stock_data table thead th.drag-icon,
+.yith_wcevti_increase_stock_data table tbody td.drag-icon,
+.yith_wcevti_increase_time_data table thead th.drag-icon,
+.yith_wcevti_increase_time_data table tbody td.drag-icon{
+    width: 20px;
+    vertical-align: middle;
+}
+.yith_wcevti_increase_stock_data table thead th.option-threshold,
+.yith_wcevti_increase_time_data table thead th.option-threshold,
+.yith_wcevti_increase_stock_data table thead th.option-increase-type,
+.yith_wcevti_increase_time_data table thead th.option-increase-type,
+.yith_wcevti_increase_stock_data table thead th.option-increase-value,
+.yith_wcevti_increase_time_data table thead th.option-increase-value{
+    width: 20%;
+}
+.yith_wcevti_increase_stock_data table tbody td .option-threshold,
+.yith_wcevti_increase_time_data table tbody td .option-threshold,
+.yith_wcevti_increase_stock_data table tbody td .option-increase-type,
+.yith_wcevti_increase_time_data table tbody td .option-increase-type,
+.yith_wcevti_increase_stock_data table tbody td .option-increase-value,
+.yith_wcevti_increase_time_data table tbody td .option-increase-value,
+.yith_wcevti_increase_stock_data table tbody td .option-actions,
+.yith_wcevti_increase_time_data table tbody td .option-actions{
+    display: inline-block;
+    vertical-align: middle;
+    width: 21%;
+}
+.yith_wcevti_increase_stock_data table tbody td label,
+.yith_wcevti_increase_time_data table tbody td label{
+    display: block;
+    float: none;
+    width: auto;
+    margin: 0;
+}
+.yith_wcevti_increase_stock_data table tbody td input[type="text"],
+.yith_wcevti_increase_time_data table tbody td input[type="text"],
+.yith_wcevti_increase_stock_data table tbody td input[type="number"],
+.yith_wcevti_increase_time_data table tbody td input[type="number"],
+.yith_wcevti_increase_stock_data table tbody td select,
+.yith_wcevti_increase_time_data table tbody td select,
+.yith_wcevti_increase_stock_data table tbody td textarea,
+.yith_wcevti_increase_time_data table tbody td textarea{
+    width: 100%;
+}
+.yith_wcevti_increase_stock_data table tbody td .option-increase-value input[type="text"],
+.yith_wcevti_increase_stock_data table tbody td .option-increase-value input[type="number"],
+.yith_wcevti_increase_time_data table tbody td .option-increase-value input[type="text"],
+.yith_wcevti_increase_time_data table tbody td .option-increase-value input[type="number"]{
+    width: 80%;
+}
+.yith_wcevti_increase_stock_data table tbody td.option-increase-value .currency-symbol,
+.yith_wcevti_increase_stock_data table tbody td.option-increase-value .percentage-symbol,
+.yith_wcevti_increase_time_data table tbody td.option-increase-value .currency-symbol,
+.yith_wcevti_increase_time_data table tbody td.option-increase-value .percentage-symbol{
+    vertical-align: middle;
+    margin-left: 5px;
+}
+.yith_wcevti_increase_stock_data table tfoot i,
+.yith_wcevti_increase_time_data table tfoot i{
+    vertical-align: middle;
+    color: inherit;
+}
+.yith_evti_increase_by{
+    background-color: #f1f1f1;
+    border-top: 1px solid #d7d7d7;
+    border-bottom: 1px solid #d7d7d7;
+
+}
+#general_product_data .expand-close{
+    float: right;
+    margin-right: 0.5em;
+}
+/***/
+/* Fields Tab */
+.yith_evti_add_fields_data{
+    padding: 10px;
+}
+.yith_evti_add_fields_data table.field-options tbody tr{
+    background-color: #f5f5f5;
+}
+.yith_evti_add_fields_data table.field-options tbody tr:nth-child( 2n ){
+    background-color: #ffffff;
+}
+.yith_evti_add_fields_data table.field-options thead th.drag-icon,
+.yith_evti_add_fields_data table.field-options tbody td.drag-icon{
+    width: 20px;
+    vertical-align: middle;
+}
+.yith_evti_add_fields_data table.field-options thead th.option-label,
+.yith_evti_add_fields_data table.field-options tbody td.option-label{
+    width: 35%;
+}
+
+.option-label .woocommerce-help-tip{
+    display: none;
+}
+
+.yith_evti_add_fields_data table.field-options thead th.option-required,
+.yith_evti_add_fields_data table.field-options tbody td.option-required,
+ td.option-required .checkbox,
+.yith_evti_add_fields_data table.field-options thead th.option-placeholder,
+.yith_evti_add_fields_data table.field-options tbody td.option-placeholder,
+td.option-placeholder .checkbox{
+    text-align: center;
+    float: none;
+}
+
+.yith_evti_add_fields_data table.field-options tbody td input[type="text"],
+.yith_evti_add_fields_data table.field-options tbody td input[type="number"],
+.yith_evti_add_fields_data table.field-options tbody td select{
+    width: 93%;
+}
+.yith_evti_add_fields_data table.field-options tfoot i{
+    vertical-align: middle;
+    color: inherit;
+}
+/***/
+/* Services Tab */
+#_show_service_type_selector,
+#_add_service_row{
+    margin: 10px;
+}
+#_service_type_selector_container{
+    display: none;
+    padding: 10px 10px 20px;
+}
+#_service_type_selector_container select{
+    display: block;
+    float: none;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+.yith_wcevti_service_row:not(.closed){
+    border-bottom: 1px solid #eee;
+}
+.yith_wcevti_service_row.opened .yith-evti-service-panel{
+    display: block;
+}
+.yith_wcevti_service_row.opened .yith-evti-service-handle .toggle i:before{
+    content: "\f142 ";
+}
+.yith_wcevti_service_row.closed .yith-evti-service-panel{
+    display: none;
+}
+.yith_wcevti_service_row.closed .yith-evti-service-handle .toggle i:before{
+    content: "\f140";
+}
+.yith-evti-service-handle{
+    border-bottom: 1px solid #eee;
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+.yith-evti-service-handle:hover{
+    background-color: #f1f1f1;
+}
+.yith-evti-service-handle .drag-icon{
+    width: 50px;
+    display: inline-block;
+    text-align: center;
+    padding: 15px 0;
+}
+.yith-evti-service-handle .title{
+    display: inline-block;
+    line-height: 48px;
+}
+.yith-evti-service-handle .title h3{
+    display: inline-block;
+    margin: 0;
+}
+.yith-evti-service-handle .title .service-type{
+    font-style: italic;
+}
+.yith-evti-service-handle .toggle{
+    width: 50px;
+    float: right;
+    text-align: center;
+    padding: 15px 0;
+}
+.yith-evti-service-handle .remove{
+    float: right;
+    padding: 11px 15px;
+}
+.yith-evti-service-panel{
+    padding: 15px;
+    position: relative;
+}
+.yith-evti-service-panel .service-type-container,
+.yith-evti-service-panel .service-label-container,
+.yith-evti-service-panel .service-stock-container,
+.yith-evti-service-panel .service-overcharge-container{
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: top;
+}
+.yith-evti-service-panel .service-type-container select{
+    min-width: 150px;
+}
+.yith-evti-service-panel .service-label-container input{
+    min-width: 300px;
+}
+.yith-evti-service-panel .service-stock-container label,
+.yith-evti-service-panel .service-overcharge-container label{
+    width: auto;
+}
+.yith-evti-service-panel .service-stock-container input,
+.yith-evti-service-panel .service-overcharge-container input{
+    max-width: 120px;
+    width: auto;
+}
+.yith-evti-service-panel .service-checkbox-heading,
+.yith-evti-service-panel .service-select-heading{
+    display: inline-block;
+    width: 40%;
+}
+.yith-evti-service-panel .service-select-heading{
+    margin-top: 20px;
+}
+.service-required-container, .service-hide-surcharge-container{
+    float: left;
+}
+.yith-evti-service-panel label{
+    margin: 0;
+    display: block;
+    float: none;
+}
+.yith-evti-option-panel .yith_wcevti_service_select_panel{
+    margin-top: 20px;
+}
+.yith-evti-option-panel table.service-options tbody tr{
+    background-color: #f5f5f5;
+}
+.yith-evti-option-panel table.service-options tbody tr:nth-child( 2n ){
+    background-color: #ffffff;
+}
+.yith-evti-option-panel table.service-options tbody th.drag-icon,
+.yith-evti-option-panel table.service-options tbody td.drag-icon{
+    vertical-align: middle;
+    width: 20px
+}
+.yith-evti-option-panel table.service-options thead th.option-label,
+.yith-evti-option-panel table.service-options tbody td.option-label{
+    width: 35%;
+}
+.yith-evti-option-panel table.service-options tbody td input[type="text"],
+.yith-evti-option-panel table.service-options tbody td input[type="number"]{
+    width: 100%;
+}
+.yith-evti-option-panel table.service-options tbody td.option-overcharge input{
+    display: inline-block;
+    vertical-align: middle;
+    width: 75%;
+}
+.yith-evti-option-panel table.service-options tbody td.option-overcharge .currency-symbol{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+.yith-evti-option-panel table.service-options tfoot i{
+    vertical-align: middle;
+    color: inherit;
+}
+/***/
+/* Map Tab */
+.yith_wcevti_address_map_div{
+    height: 500px;
+}
+.yith_wcevti_address_map{
+    height: 100%;
+    width: 100%;
+    overflow : visible;
+}
+/***/
+/* Organizers Tab */
+._organization_values_field>.select2 {
+    width: auto !important;
+}
+
+
+/***/
+/* Mail Template Tab */
+
+
+
+/***/
+
+/* Export template tab */
+#_export_csv_button, #_print_result{
+    margin: 10px;
+}
+
+/***/
+
+
+
+
+
+

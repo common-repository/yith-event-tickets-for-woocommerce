@@ -1,0 +1,40 @@
+.page-title-action{
+    display: none;
+}
+.iframe_template {
+    width: 100%;
+    height: 550px;
+}
+.wp-list-table .column-ticket-status{
+    font-size: 1.1em;
+    width: 45px;
+    text-align: center;
+}
+.ticket_status_icon{
+    color: white;
+}
+.status_checked{
+    background: #2ea2cc;
+    padding: 0.3em;
+    border-radius: 15px;
+}
+.status_pending_check{
+    background: #73a724;
+    padding: 0.3em;
+    border-radius: 15px;
+}
+.status_cancelled {
+    background: #a00;
+    padding: 0.3em;
+    border-radius: 15px;
+}
+#actions{
+    width: 110px;
+}
+.make_checkin_button:before{
+    content: '\f256';
+}
+.label {
+    display: inline-block;
+    width: 5em;
+}
